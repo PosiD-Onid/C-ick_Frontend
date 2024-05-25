@@ -1,0 +1,63 @@
+body {
+    max-height: 1000px;
+}
+
+.splash {
+    position: absolute;
+    width: 850px;
+    height: 470px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.splash1 {
+    margin-top: 0px;
+}
+
+.splash2 {
+    margin-top: 360px;
+    margin-left: 50px;
+}
+
+.box {
+    margin-right: 150px;
+    margin-left: 50px;
+}
+
+.logo {
+    height: 45px;
+    width: 120px;
+    margin-left: 1100px;
+    margin-top: 180px;
+}
+
+.text-box {
+    border-top: 0.1px solid #ffffff;
+}
+
+.text {
+    margin-left: 1000px;
+    font-size: 15px;
+    text-align: center;
+    font-family: pretendard;
+    border-top: 1px solid #DBDCDE;
+    width: 300px;
+    padding-top: 20px;
+    font-family: bold;
+}
+
+.signUp {
+    align-items: top;
+    text-align: top;
+    margin-left: 1050px;
+    margin-top: 130px;
+    width: 230px;
+    width: 220px;
+    height: 35px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: white;
+
+    border: 0.5px solid black;
+}
