@@ -1,23 +1,16 @@
 import styled from "styled-components";
 
 export const FullScreenColor = styled.div`
-  /* display: flex; */
-  /* justify-content: center;
+  display: flex;
   width: 100vw;
   height: 100vh;
-  background-color: #f5f6f8; */
-`;
-
-export const red = styled.div`
-  /* color: red;
-  margin-left: 1.2rem;
-  padding-left: 15rem; */
+  background-color: #f5f6f8;
 `;
 
 export const Title = styled.div`
-  /* color: red;
-  margin-left: 1.2rem;
-  padding-left: 15rem; */
+  color: red;
+  margin-left: 0rem;
+  padding-left: 15rem;
 `;
 
 export const TitleB = styled.div`
@@ -27,7 +20,6 @@ export const TitleB = styled.div`
 `;
 
 export const TieleI = styled.input`
-  margin-left: 16rem;
   margin-bottom: 0.5rem;
   justify-content: center;
   display: flex;

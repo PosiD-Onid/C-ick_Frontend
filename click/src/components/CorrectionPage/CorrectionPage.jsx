@@ -1,5 +1,5 @@
 import React from "react";
-import * as T from "./CorrectionPage.style";
+import * as T from "./correctionPage.style";
 
 function CorrectionPage() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import * as L from "./scheduleInquiryPage.style";
 
-const scheduleInquiryPage = () => {
+const ScheduleInquiryPage = () => {
   return (
     <>
       <L.FullScreenColor>
@@ -84,4 +84,4 @@ const scheduleInquiryPage = () => {
   );
 };
 
-export default scheduleInquiryPage;
+export default ScheduleInquiryPage;

@@ -1,15 +1,19 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Tpage from "./components/TeacherPage/TeacherPage";
-import ListPage from "./components/ScheduleInquiryPage/scheduleInquiryPage";
-import Correction from "./components/CorrectionPage/CorrectionPage";
+import TeacherPage from "./components/TeacherPage/TeacherPage";
+import ScheduleInquiryPage from "./components/ScheduleInquiryPage/";
+import CorrectionPage from "./components/CorrectionPage/";
 
 function Router() {
   return (
     <Routes>
-      <Route exact path="/TPage" element={<Tpage />}></Route>
-      <Route exact path="/ListPage" element={<ListPage />}></Route>
-      <Route exact path="/Correction" element={<Correction />}></Route>
+      <Route exact path="/TeacherPage" element={<TeacherPage />}></Route>
+      <Route
+        exact
+        path="/ScheduleInquiryPage"
+        element={<ScheduleInquiryPage />}
+      ></Route>
+      <Route exact path="/CorrectionPage" element={<CorrectionPage />}></Route>
     </Routes>
   );
 }
