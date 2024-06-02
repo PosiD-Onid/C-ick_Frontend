@@ -1,7 +1,7 @@
 import "./teacherHeader.css";
 import logo from "./img/logo.png";
 import schedule from "./img/addSchedule.png";
-import w from "./img/w.png";
+import write from "./img/write.png";
 import alarm from "./img/alarm.png";
 
 const teacherHeader = () => {
@@ -13,7 +13,7 @@ const teacherHeader = () => {
         src={schedule}
         alt="Abutton"
         class="addSchedule button" />
-      <input type="image" src={w} alt="Wbutton" class="writebutton" />
+      <input type="image" src={write} alt="Wbutton" class="writebutton" />
       <img src={alarm} alt="alarm" class="alarm" />
     </div>
   );
