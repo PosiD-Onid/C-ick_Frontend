@@ -1,4 +1,3 @@
-// import * as S from "./CorrectionPage.style";
 import * as S from "./CorrectionPage.style";
 
 const CorrectionPage = () => {
