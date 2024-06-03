@@ -1,0 +1,23 @@
+.header {
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-bottom: 1px solid #DBDCDE;
+    height: 58px;
+    position: fixed;
+}
+
+.logo {
+    align-items: left;
+    width: 95px;
+    height: 35px;
+    margin-left: 40px;
+}
+.alarm {
+    width: 38px;
+    margin-left: 20px;
+    margin-right: 35px;
+}
