@@ -1,53 +1,51 @@
-import React from "react";
-import * as T from "./correctionPage.style";
+// import * as S from "./CorrectionPage.style";
+import * as S from "./CorrectionPage.style";
 
-function CorrectionPage() {
+const CorrectionPage = () => {
   return (
-    <>
-      <T.FullScreenColor>
+    <S.FullScreenColor>
+      <div>
         <div>
-          <div>
-            <T.Title>
-              <span>*</span> 수행평가 제목
-            </T.Title>
-            <T.TieleI placeholder="수행평가 제목" type="text" />{" "}
-          </div>
-          <div>
-            <T.Title>
-              <span className="red">*</span> 수행평가 일정 입력
-            </T.Title>
-            <T.DayI placeholder="날짜" type="text"></T.DayI>
-            <T.TimeI placeholder="시간" type="text"></T.TimeI>
-            <T.DayI placeholder="날짜" type="text"></T.DayI>
-            <T.TimeI placeholder="시간" type="text"></T.TimeI>
-          </div>
-          <div>
-            <T.Title>
-              <span className="red">*</span> 수행평가 대상 학급
-            </T.Title>
-            <T.GradeI placeholder="학년" type="text"></T.GradeI>
-            <T.ClassI placeholder="반" type="text"></T.ClassI>
-          </div>
-          <div>
-            <T.Title>
-              <span className="red">*</span> 수행평가 과목
-            </T.Title>
-            <T.SubjectI placeholder="과목" type="text"></T.SubjectI>
-            <T.TitleB>수행평가 장소</T.TitleB>
-            <T.PlaceI placeholder="장소" type="text"></T.PlaceI>
-            <T.Title>
-              <span className="red">*</span> 수행평가 내용
-            </T.Title>
-            <T.DetailI placeholder="내용" type="text"></T.DetailI>
-          </div>
-          <div>
-            <T.CancelB>작성 취소</T.CancelB>
-            <T.CompleteB>작성 완료</T.CompleteB>
-          </div>
+          <S.Title>
+            <span>*</span> 수행평가 제목
+          </S.Title>
+          <S.TieleI placeholder="수행평가 제목" type="text" />{" "}
         </div>
-      </T.FullScreenColor>
-    </>
+        <div>
+          <S.Title>
+            <span className="red">*</span> 수행평가 일정 입력
+          </S.Title>
+          <S.DayI placeholder="날짜" type="text"></S.DayI>
+          <S.TimeI placeholder="시간" type="text"></S.TimeI>
+          <S.DayI placeholder="날짜" type="text"></S.DayI>
+          <S.TimeI placeholder="시간" type="text"></S.TimeI>
+        </div>
+        <div>
+          <S.Title>
+            <span className="red">*</span> 수행평가 대상 학급
+          </S.Title>
+          <S.GradeI placeholder="학년" type="text"></S.GradeI>
+          <S.ClassI placeholder="반" type="text"></S.ClassI>
+        </div>
+        <div>
+          <S.Title>
+            <span className="red">*</span> 수행평가 과목
+          </S.Title>
+          <S.SubjectI placeholder="과목" type="text"></S.SubjectI>
+          <S.TitleB>수행평가 장소</S.TitleB>
+          <S.PlaceI placeholder="장소" type="text"></S.PlaceI>
+          <S.Title>
+            <span className="red">*</span> 수행평가 내용
+          </S.Title>
+          <S.DetailI placeholder="내용" type="text"></S.DetailI>
+        </div>
+        <div>
+          <S.CancelB>작성 취소</S.CancelB>
+          <S.CompleteB>작성 완료</S.CompleteB>
+        </div>
+      </div>
+    </S.FullScreenColor>
   );
-}
+};
 
 export default CorrectionPage;

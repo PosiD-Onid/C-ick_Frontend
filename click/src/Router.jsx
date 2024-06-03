@@ -1,19 +1,17 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+
 import TeacherPage from "./components/TeacherPage/TeacherPage";
-import ScheduleInquiryPage from "./components/ScheduleInquiryPage/";
-import CorrectionPage from "./components/CorrectionPage/";
+import ScheduleInquiryPage from "./components/SchedulelnquiryPage/SchedulelnquiryPage";
+import CorrectionPage from "./components/CorrectionPage/CorrectionPage";
+// import CorrectionPage from "./components/CorrectionPage/CorrectionPage";
 
 function Router() {
   return (
     <Routes>
-      <Route exact path="/TeacherPage" element={<TeacherPage />}></Route>
-      <Route
-        exact
-        path="/ScheduleInquiryPage"
-        element={<ScheduleInquiryPage />}
-      ></Route>
-      <Route exact path="/CorrectionPage" element={<CorrectionPage />}></Route>
+      <Route path="/" element={<TeacherPage />} />
+      <Route path="/ScheduleInquiryPage" element={<ScheduleInquiryPage />} />
+      <Route path="/CorrectionPage" element={<CorrectionPage />} />
     </Routes>
   );
 }
