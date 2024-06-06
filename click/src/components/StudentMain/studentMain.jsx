@@ -1,7 +1,7 @@
-import 'studentMain.css';
-import Header from './Header/studentHeader';
+import './studentMain.css';
+import Header from "../Header/studentHeader";
 
-const studentMain = () => {
+const StudentMain = () => {
 
     return(
         <div>
@@ -32,4 +32,4 @@ const studentMain = () => {
     );
 }
 
-export default studentMain;
+export default StudentMain;

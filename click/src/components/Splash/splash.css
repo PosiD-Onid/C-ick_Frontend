@@ -1,12 +1,7 @@
-body {
-    max-height: 1000px;
-}
-
 .splash {
     position: absolute;
     width: 850px;
     height: 470px;
-    margin-left: 0px;
     padding: 0px;
 }
 
@@ -16,7 +11,6 @@ body {
 
 .splash2 {
     margin-top: 360px;
-    margin-left: 50px;
 }
 
 .box {
@@ -29,6 +23,7 @@ body {
     width: 120px;
     margin-left: 1100px;
     margin-top: 180px;
+    margin-bottom: 20px;
 }
 
 .text-box {

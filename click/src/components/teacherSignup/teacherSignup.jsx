@@ -1,7 +1,8 @@
-import "./teacherSignup.css";
+import "../../styles/Signup.css";
 import React, { useState } from "react";
 
 const type = {
+    name: "",
     userId: "",
     password: "",
     passwordCheck: "",
@@ -9,7 +10,7 @@ const type = {
   };
   
   
-function Signup() {
+function TeacherSignup() {
     const [data, setData] = useState(type);
     const {userId, password, passwordCheck, subject} = data;
 
@@ -30,23 +31,23 @@ function Signup() {
     }   
 
     return(
-        <div>
+        <div className="signup">
             <h2 className="text">회원가입</h2>
-            <p>* 도담도담 아이디</p>
-            <input type="text"  name='userId' value={userId} onChange={onChangeInput} placeholder="아이디" className="input"></input><br />
-            <button type="submit" name="IdCheck" onClick={onClickIdCheck}>중복 확인</button><br />
-            <p>* 도담도담 비밀번호</p>
+            <p><span>*</span> 아이디</p>
+            <input type="text"  name='userId' value={userId} onChange={onChangeInput} placeholder="아이디" className="input inputId"></input>
+            <button type="submit" name="IdCheck" className="IdCheck" onClick={onClickIdCheck}>중복 확인</button><br />
+            <p><span>*</span> 비밀번호</p>
             <input type="password" name='password' value={password} onChange={onChangeInput} placeholder="비밀번호" className="input"></input><br />
-            <p>* 비밀번호 확인</p>
+            <p><span>*</span> 비밀번호 확인</p>
             <input type="passwordCheck" name='passwordCheck' value={passwordCheck} onChange={onChangeInput} placeholder="비밀번호" className="input"></input><br />
-            <p>* 과목명</p>
-            <input type="text"  name='subject' value={subject} onChange={onChangeInput} placeholder="과목" className="input"></input><br/>
+            <p><span>*</span> 과목</p>
+            <input type="text"  name='subject' value={subject} onChange={onChangeInput} placeholder="과목" className="input"></input><br/>
             <button type="submit" className="Signupbtn"
             onClick={onClickSignup}
             >회원가입</button>
-            <p className="tip" onClick="location.href=''">이미 회원가입을 진행 하셨나요?</p>
+            <h6 className="tip" onClick="location.href=''">이미 회원가입을 진행 하셨나요?</h6>
         </div>
     );
 }
 
-export default Signup;
+export default TeacherSignup;

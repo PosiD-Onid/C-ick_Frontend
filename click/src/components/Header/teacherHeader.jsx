@@ -1,10 +1,11 @@
+import "../../styles/Header.css";
 import "./teacherHeader.css";
-import logo from "./img/logo.png";
-import schedule from "./img/addSchedule.png";
-import write from "./img/write.png";
-import alarm from "./img/alarm.png";
+import logo from "../../assets/img/logo.png";
+import schedule from "../../assets/img/addSchedule.png";
+import write from "../../assets/img/write.png";
+import alarm from "../../assets/img/alarm.png";
 
-const teacherHeader = () => {
+const TeacherHeader = () => {
   return (
     <div class="header">
       <img src={logo} alt="logo" class="logo" />
@@ -19,4 +20,4 @@ const teacherHeader = () => {
   );
 };
 
-export default teacherHeader;
+export default TeacherHeader;

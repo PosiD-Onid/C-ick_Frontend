@@ -1,12 +1,12 @@
 import './teacherMain.css';
-import Header from './Header/teacherHeader';
-import React, { useState, useEffect, useRef } from 'react';
+import TeacherHeader from "../Header/teacherHeader"
+// import React, { useState, useEffect, useRef } from 'react';
 
 const teacherMain = () => {
 
     return(
         <div>
-            <Header />
+            <TeacherHeader />
             <div className="calendar">
                 <div className='title'>
                 <div className="year-month"></div>

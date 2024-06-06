@@ -1,26 +1,7 @@
-.header {
-    margin-top: 2px;
-    padding-top: 5px;
-    padding-bottom: 8px;
-    top: 0;
-    left: 0;
-    position: absolute;
-    border-bottom: 1px solid #DBDCDE;
-    height: 58px;
-    position: fixed;
-}
-
-.logo {
-    align-items: left;
-    width: 95px;
-    height: 35px;
-    margin-left: 40px;
-}
-  
 .addSchedule {
     width:80px;
     height: 35px;
-    margin-left: 1060px;
+    margin-left: 1085px;
 }
 
 .writebutton {
@@ -28,7 +9,7 @@
     height: 35px;
     margin-left: 10px;
 }
-  
+
 .alarm {
     width: 35px;
     margin-left: 10px;

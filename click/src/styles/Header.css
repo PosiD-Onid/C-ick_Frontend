@@ -1,0 +1,18 @@
+.header {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-bottom: 1px solid #DBDCDE;
+    height: 50px;
+    position: fixed;
+}
+
+.logo {
+    align-items: left;
+    width: 95px;
+    height: 35px;
+    margin-left: 40px;
+}
