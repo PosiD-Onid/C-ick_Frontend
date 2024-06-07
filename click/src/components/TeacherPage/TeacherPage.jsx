@@ -1,50 +1,50 @@
 // import * as T from "./TeacherPage.style";
-import * as T from "./TeacherPage.style";
+import * as S from "./TeacherPage.style";
 
 const TeacherPage = () => {
   return (
-    <T.FullScreenColor>
+    <S.FullScreenColor>
       <div>
         <div>
-          <T.Title>
-            <span className="red">*</span> 수행평가 제목
-          </T.Title>
-          <T.TieleI placeholder="수행평가 제목" type="text" />{" "}
+          <S.Title>
+            <S.Span>*</S.Span> 수행평가 제목
+          </S.Title>
+          <S.BigI placeholder="수행평가 제목" type="text" />{" "}
         </div>
         <div>
-          <T.Title>
-            <span className="red">*</span> 수행평가 일정 입력
-          </T.Title>
-          <T.DayI placeholder="날짜" type="text"></T.DayI>
-          <T.TimeI placeholder="시간" type="text"></T.TimeI>
-          <T.DayI placeholder="날짜" type="text"></T.DayI>
-          <T.TimeI placeholder="시간" type="text"></T.TimeI>
+          <S.Title>
+            <S.Span>*</S.Span> 수행평가 일정 입력
+          </S.Title>
+          <S.MiniI placeholder="날짜" type="text"></S.MiniI>
+          <S.MiniI placeholder="시간" type="text"></S.MiniI>
+          <S.MiniI placeholder="날짜" type="text"></S.MiniI>
+          <S.MiniI placeholder="시간" type="text"></S.MiniI>
         </div>
         <div>
-          <T.Title>
-            <span>*</span> 수행평가 대상 학급
-          </T.Title>
-          <T.GradeI placeholder="학년" type="text"></T.GradeI>
-          <T.ClassI placeholder="반" type="text"></T.ClassI>
+          <S.Title>
+            <S.Span>*</S.Span> 수행평가 대상 학급
+          </S.Title>
+          <S.MiniI placeholder="학년" type="text"></S.MiniI>
+          <S.MiniI placeholder="반" type="text"></S.MiniI>
         </div>
         <div>
-          <T.Title>
-            <span>*</span> 수행평가 과목
-          </T.Title>
-          <T.SubjectI placeholder="과목" type="text"></T.SubjectI>
-          <T.TitleB>수행평가 장소</T.TitleB>
-          <T.PlaceI placeholder="장소" type="text"></T.PlaceI>
-          <T.Title>
-            <span>*</span> 수행평가 내용
-          </T.Title>
-          <T.DetailI placeholder="내용" type="text"></T.DetailI>
+          <S.Title>
+            <S.Span>*</S.Span> 수행평가 과목
+          </S.Title>
+          <S.BigI placeholder="과목" type="text"></S.BigI>
+          <S.Title>수행평가 장소</S.Title>
+          <S.BigI placeholder="장소" type="text"></S.BigI>
+          <S.Title>
+            <S.Span>*</S.Span> 수행평가 내용
+          </S.Title>
+          <S.BigI placeholder="내용" type="text"></S.BigI>
         </div>
         <div>
-          <T.CancelB>작성 취소</T.CancelB>
-          <T.CompleteB>작성 완료</T.CompleteB>
+          <S.CancelB>작성 취소</S.CancelB>
+          <S.CompleteB>작성 완료</S.CompleteB>
         </div>
       </div>
-    </T.FullScreenColor>
+    </S.FullScreenColor>
   );
 };
 

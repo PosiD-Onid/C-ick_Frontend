@@ -11,7 +11,7 @@ export const List = styled.div`
   font-family: "Pretendard-Regular";
   font-style: normal;
   font-weight: 600;
-  margin-left: 1rem;
+  margin-left: 0rem;
   color: black;
 `;
 
@@ -23,7 +23,7 @@ export const Line = styled.hr`
 export const Select = styled.div`
   margin-top: 1rem;
   margin-bottom: 1rem;
-  margin-left: 10rem;
+  margin-left: 0rem;
   font-size: 17px;
   font-family: "Pretendard-Regular";
   font-style: normal;
