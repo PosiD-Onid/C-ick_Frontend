@@ -18,7 +18,9 @@ function TeacherLogin () {
         console.log(data)
     }
 
-
+    const onClickTip = () => {
+        // 페이지 라우팅... --> 회원가입으로
+    }
 
     return(
         <div className="login">
@@ -27,10 +29,8 @@ function TeacherLogin () {
             <input type="text" name='userId' value={userId} onChange={onChangeInput} placeholder="아이디" className="input"></input><br />
             <p>비밀번호</p>
             <input type="password" name='password' value={password} onChange={onChangeInput} placeholder="비밀번호" className="input"></input><br />
-            <button className="Loginbtn"
-            // onClick={location.href='http://127.0.0.1:3002/teacherPage/teacherPage.html'}
-            >로그인</button>
-            <h6 className="tip" onClick="location.href=''">Tip! c!ick이 처음이시라면? 회원가입을 먼저 진행해주세요</h6>
+            <button className="Loginbtn">로그인</button>
+            <h6 className="tip" onClick={onClickTip}>Tip! c!ick이 처음이시라면? 회원가입을 먼저 진행해주세요</h6>
         </div>
     );
 }
